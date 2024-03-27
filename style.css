@@ -1,0 +1,55 @@
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.houses {
+  display: flex;
+  gap: 20px;
+}
+
+.house {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+}
+
+.house img {
+  width: 80%;
+  border: 2px solid #333;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.house-info {
+  margin-top: 10px;
+  width: 80%;
+  border: 2px solid #333;
+  padding: 15px;
+}
+
+.filter {
+  text-align: center;
+  padding: 10px;
+  margin-left: auto;
+}
